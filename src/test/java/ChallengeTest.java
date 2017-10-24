@@ -4,7 +4,8 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import algorithms.implementation.GradingStudents;
-import algorithms.implementation.AppleOrange;
+import algorithms.implementation.Kangaroo;
+
 public class ChallengeTest {
     @Test
     void gradingStudentTest() {
@@ -23,7 +24,8 @@ public class ChallengeTest {
     }
 
     @Test
-    void appleOrangeTest() {
-        AppleOrange appleOrange = new AppleOrange(1,2,3,4);
+    void kangarooTest() {
+        Kangaroo kangaroo = new Kangaroo();
+        assertEquals("YES", kangaroo.kangaroo(0, 3, 4, 2));
     }
 }
