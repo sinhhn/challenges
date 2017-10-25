@@ -1,8 +1,5 @@
 package algorithms.implementation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class BreakingRecords {
     public static int[] getRecord(int[] s) {
         int breakingDownTimes = 0;

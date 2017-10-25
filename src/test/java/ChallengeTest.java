@@ -45,10 +45,17 @@ public class ChallengeTest {
         int d = 3, m = 2;
         assertEquals(0, BirthdayChocolate.solve(s, d, m));
     }
+
     @Test
     void birthDayChocolateTest3() {
         int[] s = {4};
         int d = 4, m = 1;
         assertEquals(1, BirthdayChocolate.solve(s, d, m));
+    }
+
+    @Test
+    void divisibleSumPairsTest() {
+        int[] ar = {1, 3, 2, 6, 1, 2};
+        assertEquals(5, DivisibleSumPairs.divisibleSumPairs(6, 3, ar));
     }
 }
