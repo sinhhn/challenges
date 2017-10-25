@@ -1,11 +1,11 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import algorithms.implementation.TwoSets;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import algorithms.implementation.GradingStudents;
 import algorithms.implementation.Kangaroo;
+import algorithms.implementation.TwoSets;
 
 public class ChallengeTest {
     @Test
