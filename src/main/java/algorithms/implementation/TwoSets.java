@@ -3,7 +3,7 @@ package algorithms.implementation;
 import java.util.Arrays;
 
 public class TwoSets {
-    public int getTotalX(int[] a, int[] b) {
+    public static int getTotalX(int[] a, int[] b) {
         int result = 0;
         int min = Arrays.stream(b).min().getAsInt();
         // int multiply = Arrays.stream(a).reduce(1, (x, y) -> x * y);

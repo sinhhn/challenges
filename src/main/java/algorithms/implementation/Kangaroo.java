@@ -1,7 +1,7 @@
 package algorithms.implementation;
 
 public class Kangaroo {
-    public String kangaroo(int x1, int v1, int x2, int v2) {
+    public static String kangaroo(int x1, int v1, int x2, int v2) {
         final String YES = "YES";
         final String NO = "NO";
         int s1 = x1;

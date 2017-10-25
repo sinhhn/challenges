@@ -1,7 +1,7 @@
 package algorithms.implementation;
 
 public class GradingStudents {
-    public int[] solve(int[] grades) {
+    public static int[] solve(int[] grades) {
         int[] result = new int[grades.length];
         int i = 0;
         for (int grade : grades) {
