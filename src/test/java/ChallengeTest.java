@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import algorithms.implementation.TwoSets;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -27,5 +28,13 @@ public class ChallengeTest {
     void kangarooTest() {
         Kangaroo kangaroo = new Kangaroo();
         assertEquals("YES", kangaroo.kangaroo(0, 3, 4, 2));
+    }
+
+    @Test
+    void twoSetsTest() {
+        TwoSets twoSets = new TwoSets();
+        int[] a = {2, 4};
+        int[] b = {16, 32, 96};
+        assertEquals(3, twoSets.getTotalX(a,b));
     }
 }
