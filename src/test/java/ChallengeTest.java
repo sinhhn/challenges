@@ -56,6 +56,12 @@ public class ChallengeTest {
     @Test
     void divisibleSumPairsTest() {
         int[] ar = {1, 3, 2, 6, 1, 2};
-        assertEquals(5, DivisibleSumPairs.divisibleSumPairs(6, 3, ar));
+        assertEquals(5, DivisibleSumPairs.divisibleSumPairs(3, ar));
+    }
+
+    @Test
+    void migratoryBirdsTest() {
+        int[] ar = {1, 4, 4, 4, 5, 5, 5, 3, 3, 3};
+        assertEquals(3, MigratoryBirds.migratoryBirds(ar));
     }
 }
