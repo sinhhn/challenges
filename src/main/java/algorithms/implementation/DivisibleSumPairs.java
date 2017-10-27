@@ -1,7 +1,5 @@
 package algorithms.implementation;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 public class DivisibleSumPairs {
     public static int divisibleSumPairs(int k, int[] ar) {

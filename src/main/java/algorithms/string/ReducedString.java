@@ -1,6 +1,8 @@
 package algorithms.string;
 
 
+import java.util.Stack;
+
 public class ReducedString {
     public static String super_reduced_string(String s) {
         String result = myReplace(s);
@@ -20,4 +22,5 @@ public class ReducedString {
         }
         return temp;
     }
+
 }
