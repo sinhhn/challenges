@@ -1,6 +1,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import algorithms.implementation.*;
+import algorithms.string.ReducedString;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
