@@ -64,4 +64,15 @@ public class ChallengeTest {
         int[] ar = {1, 4, 4, 4, 5, 5, 5, 3, 3, 3};
         assertEquals(3, MigratoryBirds.migratoryBirds(ar));
     }
+
+    @Test
+    void reducedStringTest1() {
+        String s = "baab";
+        assertEquals("Empty String", ReducedString.super_reduced_string(s));
+    }
+    @Test
+    void reducedStringTest2() {
+        String s = "aaabccddd";
+        assertEquals("abd", ReducedString.super_reduced_string(s));
+    }
 }
