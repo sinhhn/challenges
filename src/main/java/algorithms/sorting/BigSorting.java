@@ -7,28 +7,28 @@ public class BigSorting {
         return arr;
     }
 
-    private static void bigSort(String arr[], int left, int right) {
-        int index = partition(arr, left, right);
+    private static void bigSort(String[] strings, int left, int right) {
+        int index = partition(strings, left, right);
         if (left < index - 1)
-            bigSort(arr, left, index - 1);
+            bigSort(strings, left, index - 1);
         if (index < right)
-            bigSort(arr, index, right);
+            bigSort(strings, index, right);
     }
 
-    static int partition(String arr[], int left, int right) {
+    static int partition(String[] strings, int left, int right) {
         int i = left, j = right;
         String tmp = "";
-        String pivot = arr[(left + right) / 2];
+        String pivot = strings[(left + right) / 2];
 
         while (i <= j) {
-            while (compare(arr[i], pivot) == -1)
+            while (compare(strings[i], pivot) == -1)
                 i++;
-            while (compare(arr[j], pivot) == 1)
+            while (compare(strings[j], pivot) == 1)
                 j--;
             if (i <= j) {
-                tmp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = tmp;
+                tmp = strings[i];
+                strings[i] = strings[j];
+                strings[j] = tmp;
                 i++;
                 j--;
             }
