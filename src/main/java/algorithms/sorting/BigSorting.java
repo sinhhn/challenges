@@ -3,7 +3,7 @@ package algorithms.sorting;
 public class BigSorting {
 
     public static String[] bigSort(String[] arr) {
-         bigSort(arr,0,arr.length-1);
+        bigSort(arr, 0, arr.length - 1);
         return arr;
     }
 
