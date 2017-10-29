@@ -51,9 +51,7 @@ public class BigSorting {
             for (int i = 0; i < s1.length(); i++) {
                 if (temp1[i] < temp2[i]) {
                     return -1;
-                } else if (temp1[i] == temp2[i]) {
-                    continue;
-                } else {
+                } else if (temp1[i] > temp2[i]) {
                     return 1;
                 }
             }
