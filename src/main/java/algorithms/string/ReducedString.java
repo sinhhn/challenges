@@ -6,7 +6,7 @@ import java.util.Stack;
 public class ReducedString {
     public static String super_reduced_string(String s) {
         String result = myReplace(s);
-        if (result == s) {
+        if (result.equals(s)) {
             return result;
         } else if ("".equals(result)) {
             return "Empty String";
